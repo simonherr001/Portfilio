@@ -5,7 +5,8 @@ ul {
     overflow: hidden;
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(194, 191, 191);
-    width: ;
+    border-radius: 10px;
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif);
   }
   
   li {
@@ -33,6 +34,8 @@ ul {
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(161, 157, 157);
     color: white;
+    background-image: url(https://i.ya-webdesign.com/images/cherry-blossom-gif-png-7.gif);
+    border-radius: 10px;
   }
   p{
     background-color: rgba(56, 55, 55, 0.493);
@@ -40,6 +43,8 @@ ul {
     font-size: 195%;
     width: 50%;
     color: white;
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif);
+    border-radius: 10px;
   }
   
   .hobbies{
@@ -54,3 +59,4 @@ ul {
       background-image: url(https://image.freepik.com/free-vector/shiny-pink-watercolor-background_1055-2275.jpg);
       background-size: cover;
   }
+  

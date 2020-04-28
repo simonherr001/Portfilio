@@ -5,7 +5,8 @@ ul {
     overflow: hidden;
     background-color: rgba(88, 86, 86, 0.836);
     border: 5px solid rgb(235, 42, 42);
-    width: ;
+    background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
+    border-radius: 10px;
   }
   
   li {
@@ -30,6 +31,8 @@ ul {
     border: 5px solid rgb(235, 42, 42);
     height: 100px;
     font-size: 400%;
+    border-radius: 10px;
+    background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
   }
   p{
     color: white;
@@ -38,6 +41,8 @@ ul {
     font-size: 195%;
     width: 50%;
     text-align: center;
+    border-radius: 10px;
+    background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
   }
   .first_paragraph{
     height: 190px;
@@ -50,4 +55,43 @@ ul {
   body{
       background-image: url(https://st.depositphotos.com/1802282/2824/v/450/depositphotos_28244465-stock-illustration-black-and-white-background-with.jpg);
       background-size: 50%;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
   }
