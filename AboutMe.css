@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(194, 191, 191);
+    width: ;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 130%;
+  }
+  
+  li a:hover {
+    background-color: rgba(66, 63, 63, 0.836);
+  }
+  .AboutMe{
+    height: 100px;
+    font-size: 200%;
+  }
+
+  h1{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(161, 157, 157);
+    color: white;
+  }
+  p{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(194, 191, 191);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+  }
+  
+  .hobbies{
+      width: 7%;
+  }
+  
+  .four_year_plan{
+    width: 9%;
+  }
+  
+  body{
+      background-image: url(https://image.freepik.com/free-vector/shiny-pink-watercolor-background_1055-2275.jpg);
+      background-size: cover;
+  }
