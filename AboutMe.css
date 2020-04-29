@@ -3,10 +3,8 @@ ul {
     
     padding: 0;
     overflow: hidden;
-    background-color: rgba(56, 55, 55, 0.493);
-    border: 5px solid rgb(194, 191, 191);
+    
     border-radius: 10px;
-    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif);
   }
   
   li {
@@ -60,3 +58,45 @@ ul {
       background-size: cover;
   }
   
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.767);
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-image: url(https://animaloilmaker.com/images/gif-pink-tree-6.gif);
+    background-size: 690%;
+    background-position: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ebeb;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .spancolor{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(161, 157, 157);
+    border-radius: 10px;
+    color: white;
+  }

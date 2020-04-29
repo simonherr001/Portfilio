@@ -6,8 +6,10 @@
     <title>Simon Herr</title>
     <link rel="stylesheet" href="Simon.css">
 </head>
-<h1>Simon Herr</h1>
-<!-- <ul>
+
+ <div id="mySidenav" class="sidenav">
+  <ul>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <li><a href="Simon.html">Home/Simon_Herr</a></li>
     <li><a href="AboutMe.html">About Me</a></li>
     <li><a href="Resume.html">Resume</a></li>
@@ -15,26 +17,12 @@
     <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
     <li><a href="Contact.html">Contact</a></li>
     <li><a href="Conclusion.html">Conclusion</a></li>
-  </ul> -->
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-<body>
-    <div class="first_paragraph">
-    <p>I am a junior in high school. Currently I am attending Clovis East High School and CART( Center For Advanced Technology and Research). At CART there are multiple labs that you can take. The one that I am taking currently is Web Application Development. This is the lab where we learn to create websites using JavaScript, HTML, and CSS.</p>
     </div>
-    <div class="second_paragraph">
-    <p>
-        In this website it talks all about me. From what I love to do like my hobbies all the way to the work that I have done for my school which is CART and Clovis East High School. But to be more specific I will be telling you what I have done in CART for example I have created a website for that class using CSS, HTML, and JavaScript, which are some coding languages.
-        Another example is this website. This website is created by me using those coding languages. Coding is hard when it comes to some stuff but when you get the hang of it, coding become fun and a little easier. That is some of the stuff I will talk about to I hope you enjoy my website.
-    </p>
-    <img src="Images/6 - simon.png" alt="" width="20%" height="">
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  </ul> 
+  
+<body>
+    
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="spancolor">&#9776; Open</span>
 
 <script>
 function openNav() {
@@ -45,5 +33,16 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<h1>Simon Herr</h1>
+<div class="first_paragraph">
+    <p>I am a junior in high school. Currently I am attending Clovis East High School and CART( Center For Advanced Technology and Research). At CART there are multiple labs that you can take. The one that I am taking currently is Web Application Development. This is the lab where we learn to create websites using JavaScript, HTML, and CSS.</p>
+    </div>
+    <div class="second_paragraph">
+    <p>
+        In this website it talks all about me. From what I love to do like my hobbies all the way to the work that I have done for my school which is CART and Clovis East High School. But to be more specific I will be telling you what I have done in CART for example I have created a website for that class using CSS, HTML, and JavaScript, which are some coding languages.
+        Another example is this website. This website is created by me using those coding languages. Coding is hard when it comes to some stuff but when you get the hang of it, coding become fun and a little easier. That is some of the stuff I will talk about to I hope you enjoy my website.
+    </p>
+    <img src="Images/6 - simon.png" alt="" width="20%" height="">
+</div>
 </body>
 </html>

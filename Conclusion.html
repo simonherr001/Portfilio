@@ -4,19 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Conclusion.css">
 </head>
-<h1>Conclusion</h1>
-<ul>
-    <li><a href="Simon.html">Home/Simon_Herr</a></li>
-    <li><a href="AboutMe.html">About Me</a></li>
-    <li><a href="Resume.html">Resume</a></li>
-    <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
-    <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="Conclusion.html">Conclusion</a></li>
-  </ul>
+
+<div id="mySidenav" class="sidenav">
+    <ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a href="Simon.html">Home/Simon_Herr</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
+      <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Conclusion.html">Conclusion</a></li>
+      </div>
+    </ul> 
   
 <body>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="spancolor">&#9776; Open</span>
+
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <h1>Conclusion</h1>
     <p>I hope you enjoyed my portfolio or website that I have created. Once again if you have any questions contact me using my email or contact me with my linkedin account. With all that have a nice day.</p>
 </body>
 </html>

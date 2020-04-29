@@ -3,8 +3,7 @@ ul {
     
     padding: 0;
     overflow: hidden;
-    background-color: rgba(56, 55, 55, 0.493);
-    border: 5px solid rgb(56, 56, 56);
+    
     border-radius: 10px;
   }
   
@@ -67,3 +66,45 @@ ul {
       width: 20%;
   }
   
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-image: url(https://66.media.tumblr.com/70e225e5bb0cbed649eb9f92de53ba8a/tumblr_owfc4uYnVP1ui7oe1o2_250.gifv);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ebeb;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .spancolor{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    color: white;
+  }

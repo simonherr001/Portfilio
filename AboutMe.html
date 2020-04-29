@@ -6,18 +6,34 @@
     <title>About Simon lol</title>
     <link rel="stylesheet" href="AboutMe.css">
 </head>
-<div class="AboutMe"><h1>About Me</h1></div>
-<ul>
-    <li><a href="Simon.html">Home/Simon_Herr</a></li>
-    <li><a href="AboutMe.html">About Me</a></li>
-    <li><a href="Resume.html">Resume</a></li>
-    <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
-    <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="Conclusion.html">Conclusion</a></li>
-  </ul>
+
+
+<div id="mySidenav" class="sidenav">
+    <ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a href="Simon.html">Home/Simon_Herr</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
+      <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Conclusion.html">Conclusion</a></li>
+      </div>
+    </ul> 
   
 <body>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="spancolor">&#9776; Open</span>
+
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <div class="AboutMe"><h1>About Me</h1></div>
     <div class="hobbies">
     <h1>Hobbies</h1></div>
     <p>What I really love to do in my free time is play games. I like to play a variety of games. This comes from mmo rpgs like Black Desert Online to fps games like Black Ops. Playing games is the main thing that I do during my free time. When it comes to sports I like playing basketball and volleyball. I'm not really good at playing sports but it is still fun to play with family and friends. Then my last hobby that I really like is I like to read, watch, and draw anime. Reading and watching anime gives me some entertainment. When I draw this stuff it takes time and when I do draw and finish there is a satisfaction or a feeling of being proud of yourself. I am also not that good at drawing but I still like to draw because it brings out creativity.

@@ -6,18 +6,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="Portfolio_Page_2.css">
 </head>
-<div class="p2"><h1>Portfolio Page 2</h1></div>
-<ul>
-    <li><a href="Simon.html">Home/Simon_Herr</a></li>
-    <li><a href="AboutMe.html">About Me</a></li>
-    <li><a href="Resume.html">Resume</a></li>
-    <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
-    <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="Conclusion.html">Conclusion</a></li>
-  </ul>
+
+<div id="mySidenav" class="sidenav">
+    <ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a href="Simon.html">Home/Simon_Herr</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="Portfolio_Page_1.html">Portfolio Page 1</a></li>
+      <li><a href="Portfolio_Page_2.html">Portfolio Page 2</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Conclusion.html">Conclusion</a></li>
+      </div>
+    </ul> 
   
 <body>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="spancolor">&#9776; Open</span>
+
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <div class="p2"><h1>Portfolio Page 2</h1></div>
     <div class="zg"><h1>Zen Garden</h1></div>
     <p>Zen Garden was a website with HTML already created. Our main purpose was mainly in the CSS. This was to test our knowledge in CSS and also to put our creativity to the test. The Css that I used for this website was changing a lot of colors and creating boxes around them. Then I also put in some moving images that blended in well with the boxes. With those boxes I used flexes boxes to adjust everything evenly so that the website would look nice. To be honest even though I didn't do any of the html I am proud of my design of this website.
     </p>

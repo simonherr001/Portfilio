@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 130%;
+  }
+  
+  li a:hover {
+    background-color: rgba(66, 63, 63, 0.836);
+  }
+  .AboutMe{
+    height: 100px;
+    font-size: 200%;
+  }
+  h1{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    color: white;
+    border-radius: 10px;
+    background-size: 20%;
+    background-image: url(https://i.ya-webdesign.com/images/confetti-png-gif-3.gif);
+}
+  p{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    background-image: url(https://i.ya-webdesign.com/images/confetti-png-gif-3.gif);
+    background-size: 200%;
+  }
+  
+  .resume{
+    height: 100px;
+    font-size: 200%;
+    
+    background-size: 23%;  
+}
+
+  body{
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+  }
+
+  .Web{
+      width: 14%;
+  }
+
+  .cp {
+      width: 16%;
+  }
+  .cehs{
+      width: 20%;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ebeb;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .spancolor{
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    border-radius: 10px;
+    color: white;
+  }
