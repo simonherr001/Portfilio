@@ -76,16 +76,16 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://66.media.tumblr.com/70e225e5bb0cbed649eb9f92de53ba8a/tumblr_owfc4uYnVP1ui7oe1o2_250.gifv);
-    background-size: cover;
-    background-position: center;
+    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-008711bebf35.gif);
+    background-size: 100%;
+    background-position: ;
   }
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f3ebeb;
+    color: #111111;
     display: block;
     transition: 0.3s;
   }

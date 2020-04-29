@@ -70,7 +70,8 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    
+    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-9f3b161b7d5a.gif);
+    background-size: cover;
   }
   
   .sidenav a {

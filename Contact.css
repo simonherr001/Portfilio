@@ -73,14 +73,15 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    
+    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-b699ec855694.gif);
+    background-size: cover;
   }
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f3ebeb;
+    color: #000000;
     display: block;
     transition: 0.3s;
   }

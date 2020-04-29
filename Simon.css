@@ -5,7 +5,9 @@ ul {
     overflow: hidden;
     
     background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
-    border-radius: 10px;
+   
+    
+    width: 12%;
   }
   
   li {
@@ -32,6 +34,7 @@ ul {
     font-size: 400%;
     border-radius: 10px;
     background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
+    background-color: ;
   }
   p{
     color: white;
@@ -66,18 +69,20 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-43d52e2d3b62.gif);
-    background-size: 650%;
+    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-5fc6b14ffa88.gif);
+    background-size: 105%;
     background-position:center ;
   }
   
   .sidenav a {
-    padding: 8px 8px 8px 32px;
+    text-align: center;
     text-decoration: none;
     font-size: 25px;
     color: rgb(253, 6, 6);
     display: block;
     transition: 0.3s;
+    width: ;
+
   }
   
   .sidenav a:hover {
