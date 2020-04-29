@@ -103,6 +103,25 @@ ul {
     border-radius: 10px;
     color: white;
   }
-  
-  [class^=]
-  
+  .name {
+    display: flex;
+  }
+  [class^="first_paragraph"]{
+    display: flex;
+    height: 20%;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  [class^="pic"]{
+   display: flex;
+   justify-content: flex-end ;
+   align-content: space-around ;
+  flex-wrap: wrap;
+  }
+  [class^="second_paragraph"]{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-content: ;
+    flex-wrap: wrap;
+  }
