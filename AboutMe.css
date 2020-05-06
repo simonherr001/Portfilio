@@ -68,7 +68,7 @@ ul {
     background-color: rgba(17, 17, 17, 0.767);
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-a4e22b47c286.gif);
+    background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif), url(Images/SakuraTree.jpg);
     background-size:cover;
     background-position:;
   }
@@ -99,4 +99,16 @@ ul {
     border: 5px solid rgb(161, 157, 157);
     border-radius: 10px;
     color: white;
+  }
+  .ari {
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    
+  }
+   
+  .grad {
+    position: absolute;
+    top: 120%;
+    left: 60%;
   }

@@ -71,7 +71,7 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-8dd9a1c90be0.gif);
+    background-image: url(Images/green2.jpg);
     background-size: cover;
   }
   
@@ -79,7 +79,7 @@ ul {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #000000;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
   }

@@ -3,8 +3,6 @@ ul {
     
     padding: 0;
     overflow: hidden;
-    
-    background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
    
     
     width: 12%;
@@ -69,9 +67,9 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-5fc6b14ffa88.gif);
+    background-image: url(Images/SnowGif.gif), url(Images/Anime\ black\ and\ white.jpg);
     background-size: 105%;
-    background-position:center ;
+    background-position:center;
   }
   
   .sidenav a {
@@ -112,12 +110,34 @@ ul {
     align-content: space-around;
     flex-wrap: wrap;
   }
+/*   
   [class^="pic"]{
    display: flex;
    justify-content: flex-end ;
    align-content: space-around ;
   flex-wrap: wrap;
+  } */
+
+  /* .pic {
+
+    position: absolute;
+    top: 50%;
+    left: 80%;
+
+  } */
+
+  img {
+
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+
   }
+
+
   [class^="second_paragraph"]{
     display: flex;
     height: 30%;

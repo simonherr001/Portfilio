@@ -76,7 +76,7 @@ ul {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    background-image: url(https://im6.ezgif.com/tmp/ezgif-6-008711bebf35.gif);
+    background-image: url(Images/Oceab.jpg);
     background-size: 100%;
     background-position: ;
   }
@@ -107,4 +107,9 @@ ul {
     border: 5px solid rgb(56, 56, 56);
     border-radius: 10px;
     color: white;
+  }
+  .code {
+    position: absolute;
+    top: 25%;
+    left: 60%;
   }
