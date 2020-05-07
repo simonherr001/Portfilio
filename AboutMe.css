@@ -4,6 +4,7 @@
 
 ul {
     list-style-type: none;
+    width: 13%;
     
     padding: 0;
     overflow: hidden;
@@ -32,7 +33,7 @@ ul {
     font-size: 200%;
   }
 
-  h1{
+  h1 {
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(161, 157, 157);
     color: white;
@@ -41,7 +42,7 @@ ul {
     font-family: 'Satisfy', cursive;
     text-shadow: 10px 10px black;
   }
-  p{
+  .para1 {
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(194, 191, 191);
     font-size: 195%;
@@ -53,6 +54,19 @@ ul {
     text-shadow: 3px 3px black;
   }
   
+.para2 {
+  background-color: rgba(56, 55, 55, 0.493);
+  border: 5px solid rgb(194, 191, 191);
+  font-size: 195%;
+  width: 50%;
+  color: white;
+  background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif);
+  border-radius: 10px;
+  font-family: 'Courgette', cursive;
+  text-shadow: 3px 3px black;
+  margin: 0px 900px;
+}
+
   .hobbies{
       width: 7%;
       margin: auto;
@@ -60,6 +74,7 @@ ul {
   
   .four_year_plan{
     width: 9%;
+    margin: auto;
   }
   
   body{
@@ -120,6 +135,16 @@ ul {
    
   .grad {
     position: absolute;
-    top: 130%;
-    left: 60%;
+    top: 140%;
+    left: 5.6%;
+  }
+
+  .cont {
+    margin: 0px 100px;
+  }
+
+  .knight {
+    position: absolute;
+    top: 88%;
+    left: 63.5%;
   }

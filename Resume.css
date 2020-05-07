@@ -9,6 +9,7 @@ ul {
     overflow: hidden;
     
     border-radius: 10px;
+    width: 13%;
   }
   
   li {
@@ -71,14 +72,7 @@ ul {
     border-radius: 10px;
     font-family: 'Courgette', cursive;
     text-shadow: 3px 3px black;
-  }
-
-  [class^="cp"]{
-  justify-content: end;
-  }
-
-  [class^="para1"]{
-  
+    margin: 0px 860px;
   }
 
   .resume{
@@ -118,18 +112,20 @@ ul {
     overflow-x: hidden;
     transition: 0.5s;
     background-image: url(Images/Oceab.jpg);
-    background-size: 100%;
+    background-size: 105%;
     background-position: ;
     font-family: 'Courgette', cursive;
   }
   
   .sidenav a {
+    text-align: center;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #111111;
     display: block;
     transition: 0.3s;
+    width: ;
   }
   
   .sidenav a:hover {
@@ -151,12 +147,20 @@ ul {
     color: white;
   }
   
-  [class^="code"]{
-    
+  .code {
+    position: absolute;
+    top: 40%;
+    right: 8%;
   }
 
-  [class^="all"] {
-    justify-content: ;
-    display: flex;
-    flex-wrap: wrap;
+  .adobe {
+    position: absolute;
+    top: 120%;
+    right: 55%;
+  }
+
+  .wolf {
+    position: absolute;
+    top: 170%;
+    right: 10%; 
   }

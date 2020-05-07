@@ -8,6 +8,7 @@ ul {
     
     padding: 0;
     overflow: hidden;
+    width: 13%;
     
    
     border-radius: 10px;
@@ -89,13 +90,13 @@ ul {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #000000;
+    color: #fff2f2;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #fff9f9;
   }
   
   .sidenav .closebtn {
