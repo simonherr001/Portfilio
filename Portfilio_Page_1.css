@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 body{
     background-image: url(https://images.unsplash.com/photo-1568832359672-e36cf5d74f54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
@@ -33,8 +37,11 @@ ul {
     color: white;
     border-radius: 10px;
     background-size: 20%;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 10px 10px black;
 }
-  p{
+  
+  .para0{
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(56, 56, 56);
     font-size: 195%;
@@ -43,6 +50,22 @@ ul {
     border-radius: 10px;
     background-image: url(https://media.giphy.com/media/eNMwgBhXLwdY1WRYCW/giphy.gif);
     background-size: 100%;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
+    margin: 13px 500px;
+  }
+
+  .para1 {
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    background-image: url(https://media.giphy.com/media/eNMwgBhXLwdY1WRYCW/giphy.gif);
+    background-size: 100%;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
 
   .p1{
@@ -50,15 +73,30 @@ ul {
     font-size: 200%;
     background-size: 200;
    background-image: url(https://media.giphy.com/media/eNMwgBhXLwdY1WRYCW/giphy.gif);
-   
+   font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
 
   .cal{
     width: 10%;
+    margin: auto;
   }
 
   .IS{
       width: 15%;
+      margin: auto;
+  }
+
+  .para2 {
+    margin: auto;
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    background-image: url(https://media.giphy.com/media/eNMwgBhXLwdY1WRYCW/giphy.gif);
+    background-size: 100%;
   }
 
   .sidenav {
@@ -73,6 +111,8 @@ ul {
     transition: 0.5s;
     background-image: url(Images/green2.jpg);
     background-size: cover;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   
   .sidenav a {
@@ -101,4 +141,22 @@ ul {
     border: 5px solid rgb(56, 56, 56);
     border-radius: 10px;
     color: white;
+  }
+
+  .calc {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+  }
+
+  .pic2 {
+    position: absolute;
+    top: 270%;
+    left: 17%;
+  }
+
+  .math {
+    position: absolute;
+    top: 95%;
+    left: 55%;
   }

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 ul {
     list-style-type: none;
     
@@ -34,6 +38,8 @@ ul {
     color: white;
     background-image: url(https://i.ya-webdesign.com/images/cherry-blossom-gif-png-7.gif);
     border-radius: 10px;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 10px 10px black;
   }
   p{
     background-color: rgba(56, 55, 55, 0.493);
@@ -43,10 +49,13 @@ ul {
     color: white;
     background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif);
     border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   
   .hobbies{
       width: 7%;
+      margin: auto;
   }
   
   .four_year_plan{
@@ -71,6 +80,8 @@ ul {
     background-image: url(https://gifimage.net/wp-content/uploads/2017/10/cherry-blossom-petals-gif-2.gif), url(Images/SakuraTree.jpg);
     background-size:cover;
     background-position:;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   
   .sidenav a {
@@ -102,13 +113,13 @@ ul {
   }
   .ari {
     position: absolute;
-    top: 32%;
+    top: 20%;
     left: 60%;
     
   }
    
   .grad {
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 60%;
   }

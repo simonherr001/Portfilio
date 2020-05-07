@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 ul {
     list-style-type: none;
     
@@ -33,6 +37,8 @@ ul {
     border-radius: 10px;
     background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
     background-color: ;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 10px 10px black;
   }
   p{
     color: white;
@@ -43,6 +49,8 @@ ul {
     text-align: center;
     border-radius: 10px;
     background-image: url(https://i.ya-webdesign.com/images/transparent-raindrop-12.gif);
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   .first_paragraph{
     height: 190px;
@@ -80,7 +88,8 @@ ul {
     display: block;
     transition: 0.3s;
     width: ;
-
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   
   .sidenav a:hover {

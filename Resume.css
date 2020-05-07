@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 ul {
     list-style-type: none;
     
@@ -33,16 +37,50 @@ ul {
     color: white;
     border-radius: 10px;
     background-size: 20%;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 10px 10px black;
 }
-  p{
+  .para0{
     background-color: rgba(56, 55, 55, 0.493);
     border: 5px solid rgb(56, 56, 56);
     font-size: 195%;
     width: 50%;
     color: white;
     border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
   }
   
+  .para2 {
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
+  }
+
+  .para1 {
+    background-color: rgba(56, 55, 55, 0.493);
+    border: 5px solid rgb(56, 56, 56);
+    font-size: 195%;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px black;
+  }
+
+  [class^="cp"]{
+  justify-content: end;
+  }
+
+  [class^="para1"]{
+  
+  }
+
   .resume{
     height: 100px;
     font-size: 200%;
@@ -57,13 +95,16 @@ ul {
 
   .Web{
       width: 14%;
+      margin: auto;
   }
 
   .cp {
       width: 16%;
+      margin: auto;
   }
   .cehs{
       width: 20%;
+      margin: auto;
   }
   
   .sidenav {
@@ -79,6 +120,7 @@ ul {
     background-image: url(Images/Oceab.jpg);
     background-size: 100%;
     background-position: ;
+    font-family: 'Courgette', cursive;
   }
   
   .sidenav a {
@@ -108,8 +150,13 @@ ul {
     border-radius: 10px;
     color: white;
   }
-  .code {
-    position: absolute;
-    top: 25%;
-    left: 60%;
+  
+  [class^="code"]{
+    
+  }
+
+  [class^="all"] {
+    justify-content: ;
+    display: flex;
+    flex-wrap: wrap;
   }
